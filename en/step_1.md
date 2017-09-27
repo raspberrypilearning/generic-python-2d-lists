@@ -1,32 +1,32 @@
-A Python list holds a number of items.
+A Python list can hold any number of items:
 
 ``` python
 top_row = ['X', 'O', 'X']
 ```
 
-A 2D list is a list that holds a number of lists.
+A 2D list is a list that holds a number of lists:
 
 ``` python
 board = [['X', 'O', 'X'],
          ['O', 'X', 'O'],
-		 ['X', 'O', 'O']]
+	 ['X', 'O', 'O']]
 ```
 
-This lists can then be accessed using an index.
+The lists inside the 2D list can be accessed using an index:
 
 ``` python
 >>> board[0]
 ['X', 'O', 'X']
 ```
 
-Or you can look at a specific item in one of the lists, by using the index of the list, and then the index of the item in that list.
+You can also look at a specific item in one of the lists: use the index of the list, and then the index of the item in that list.
 
 ``` python
 >>> board[1][1]
 'X'
 ```
 
-If you want to loop over a 2D list, you could use a **nested** for loop.
+If you want to loop over a 2D list, you can use a **nested** for loop.
 
 ``` python
 for row in board:
