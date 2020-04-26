@@ -1,35 +1,35 @@
-A Python list can hold any number of items:
+Een Python-lijst kan een willekeurig aantal items bevatten:
 
 ``` python
-top_row = ['X', 'O', 'X']
+bovenste_rij = ['X', 'O', 'X']
 ```
 
-A 2D list is a list that holds a number of lists:
+Een 2D-lijst is een lijst met een aantal lijsten:
 
 ``` python
-board = [['X', 'O', 'X'],
+bord = [['X', 'O', 'X'],
          ['O', 'X', 'O'],
      ['X', 'O', 'O']]
 ```
 
-The lists inside the 2D list can be accessed using an index:
+De lijsten in de 2D-lijst kunnen worden geopend met behulp van een index:
 
 ``` python
->>> board[0]
+>>> bord[0]
 ['X', 'O', 'X']
 ```
 
-You can also look at a specific item in one of the lists: use the index of the list, and then the index of the item in that list.
+Je kunt ook naar een specifiek item in een van de lijsten kijken: gebruik de index van de lijst en vervolgens de index van het item in die lijst.
 
 ``` python
->>> board[1][1]
+>>> bord[1][1]
 'X'
 ```
 
-If you want to loop over a 2D list, you can use a **nested** for loop.
+Als je een 2D-lijst wilt doorlopen, kun je een **geneste** for lus gebruiken.
 
 ``` python
-for row in board:
-    for item in row:
+for rij in bord:
+    for item in rij:
         print(item)
 ```
