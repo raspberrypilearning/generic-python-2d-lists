@@ -1,7 +1,7 @@
 ---
-title: Two-dimensional lists in Python
+title: Listes à deux dimensions en Python
 hero_image: images/banner.png
-description: Creating and accessing 2D lists in Python
+description: Création et accès à des listes 2D en Python
 original_url:
 theme: cc-prototype
 duration: 1
@@ -12,4 +12,4 @@ interests: ""
 technologies: ""
 steps:
   - 
-    title: 2D lists in Python
+    title: Listes 2D en Python
